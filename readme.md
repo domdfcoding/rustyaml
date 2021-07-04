@@ -46,6 +46,8 @@ Legend:
 
 ## Develop
 
-1) Install `rustup` and `poetry`. Ensure that `cargo` is somewhere on your path.
+1) Install `rustup` and `virtualenv`. Ensure that `cargo` is somewhere on your path.
 
-2) `poetry install` will automatically create the venv, compile the package and install it into the venv via the build script.
+2) Create and activate a virtual environment.
+
+3) Run `pip install .` to build and install the package.
